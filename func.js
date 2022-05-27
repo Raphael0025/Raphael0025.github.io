@@ -1,4 +1,4 @@
-function highlight(id, id2){
+function highlight(id, id2){ 
     el = document.getElementById(id);
     lab = document.getElementById(id2);
     switch(id){
