@@ -59,5 +59,7 @@ function unhighlight(id, id2){
             lab.style.color = "green";
             break;
     }
-    
 } 
+function getMessage(){
+    alert("Message has been sent to the office.")
+}
