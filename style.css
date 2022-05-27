@@ -15,6 +15,15 @@ body{
 .cnavbar-light .navbar-toggler{
     border: 1px solid green;
 } 
+.para{
+    font-size: 120%;
+}
+.ab{
+    margin-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
 .ham{
     margin-top: -10%;
 }
@@ -123,7 +132,12 @@ body{
     text-decoration: underline;
     z-index: -1;
 }
-
+.contact{
+    margin-left: 10%;
+}
+.inner-form{
+    width: 70%;
+}
 .cstm-drop-ls:hover .cstm-drop-itm {
     display: block;
 }
@@ -235,6 +249,10 @@ body{
         margin-left: 4%;
     }
     @media all and (min-width: 391px) and (max-width: 499px){
+        .contact{
+            margin-left: 1%;
+            padding-left: 0%;
+        }
         .ham{
             margin-top: 0%;
             margin-right: 1.5%;
@@ -290,6 +308,14 @@ body{
         }
     }
 @media all and (max-width: 390px){
+    .ab{
+        margin-top: 20%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .para{
+        font-size: 80%;
+    }
     .ham{
         margin-top: -15%;
         margin-right: 3%;
@@ -345,6 +371,18 @@ body{
     }
 }
 @media all and (min-width: 500px) and (max-width: 850px){
+    .ab{
+        margin-top: 20%;
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .para{
+        font-size: 130%;
+    }
+    .contact{
+        margin-top: 15%;
+        padding-left: 0%;
+    }
     .ham{
         margin-top: 0%;
         margin-right: 5%;
