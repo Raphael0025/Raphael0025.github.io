@@ -22,7 +22,22 @@ body{
     margin-top: 10%;
     padding-left: 10%;
     padding-right: 10%;
-
+}
+#foodt{
+    margin-left: 23%;
+}
+#muset{
+    margin-left: 33%;
+}
+#shopt{
+    margin-left: 15%;
+}
+#hotelt{
+    margin-left: 35%;
+}
+#parkt{
+    margin-left: 8%;
+    font-size: 155%;
 }
 .ham{
     margin-top: -10%;
@@ -313,6 +328,19 @@ body{
         padding-left: 10%;
         padding-right: 10%;
     }
+    #foodt{
+        margin-left: 18%;
+    }
+    #muset{
+        margin-left: 30%;
+    }
+    #shopt{
+        margin-left: 9%;
+    }
+    #parkt{
+        margin-left: 8%;
+        font-size: 120%;
+    }
     .para{
         font-size: 80%;
     }
@@ -337,7 +365,7 @@ body{
         height: 100%;
     }
     .g-row-2{
-        margin-top: 45%;
+        margin-top: 55%;
         margin-bottom: 10%;
         display: grid;
         grid-template-columns: auto auto;
@@ -361,7 +389,7 @@ body{
     #log{
         margin-bottom: 0%;
         height:150%;
-        width: 40%;
+        width: 55%;
     }
     #expl{
         margin-left: 2%;
