@@ -9,21 +9,34 @@ body{
     padding: 0;
     margin: 0;
 }
+.cnavbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 128, 55, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='1' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.cnavbar-light .navbar-toggler{
+    border: 1px solid green;
+} 
+.ham{
+    margin-top: -10%;
+}
 .bg-color{
     background-color: rgba(255, 192, 203, 0.5);
     width: 100%;
     height: 100vh;
 }
 .main p, .main2 p{
+    margin-top: 22%;
     margin-left: 43%;
 }
 .main3 p{
+    margin-top: 22%;
     margin-left: 42%;
 }
 .main4 p, .main5 p{
+    margin-top: 22%;
     margin-left: 38%;
 }
 .main6 p{
+    margin-top: 22%;
     margin-left: 46%;
 }
 .text{
@@ -130,6 +143,11 @@ body{
     grid-template-columns: auto auto auto auto;
     row-gap: 30px;
 }
+.foot > div{
+    position: fixed;
+    bottom: 0;
+    background-color: green;
+}
     #explore  {
         margin-left: 39%;
         color: green;
@@ -216,10 +234,81 @@ body{
         width: 40%;
         margin-left: 4%;
     }
-
-@media all and (max-width: 550px){
-    .main p{
+    @media all and (min-width: 391px) and (max-width: 499px){
+        .ham{
+            margin-top: 0%;
+            margin-right: 1.5%;
+        }
+        .main p, .main2 p{
+            margin-left: 33%;
+        }
+        .main3 p{
+            margin-left: 30%;
+        }
+        .main4 p, .main5 p{
+            margin-left: 20%;
+        }
+        .main6 p{
+            margin-top: 15%;
+            margin-left: 37%;
+        }
+        .carousel{
+            height: 100%;
+        }
+        .g-row-2{
+            margin-top: 45%;
+            margin-bottom: 10%;
+            display: grid;
+            grid-template-columns: auto auto;
+        }
+        .g-row-3{
+            display: grid;
+            column-gap: 20px;
+            grid-template-columns: auto auto;
+        }
+        .card{
+            margin-left: 10%;
+            margin-bottom: 5%;
+        }
+        #explore  {
+            margin-left: 25%;
+            color: green;
+        }
+        .g-row-1{
+            margin-bottom: 3%;
+        }
+        #log{
+            margin-bottom: 0%;
+            height:150%;
+            width: 40%;
+        }
+        #expl{
+            margin-left: 2%;
+        }
+        a.navbar-brand{
+            width: 81%;
+        }
+    }
+@media all and (max-width: 390px){
+    .ham{
+        margin-top: -15%;
+        margin-right: 3%;
+    }
+    .main p, .main2 p{
         margin-left: 30%;
+    }
+    .main3 p{
+        margin-left: 30%;
+    }
+    .main4 p, .main5 p{
+        margin-left: 20%;
+    }
+    .main6 p{
+        margin-top: 15%;
+        margin-left: 37%;
+    }
+    .carousel{
+        height: 100%;
     }
     .g-row-2{
         margin-top: 45%;
@@ -241,6 +330,63 @@ body{
         color: green;
     }
     .g-row-1{
+        margin-bottom: 3%;
+    }
+    #log{
+        margin-bottom: 0%;
+        height:150%;
+        width: 40%;
+    }
+    #expl{
+        margin-left: 2%;
+    }
+    a.navbar-brand{
+        width: 81%;
+    }
+}
+@media all and (min-width: 500px) and (max-width: 850px){
+    .ham{
+        margin-top: 0%;
+        margin-right: 5%;
+    }
+    .main p, .main2 p{
+        margin-left: 38%;
+    }
+    .main3 p{
+        margin-left: 40%;
+    }
+    .main4 p, .main5 p{
+        margin-left: 15%;
+    }
+    .main6 p{
+        margin-top: 15%;
+        margin-left: 44%;
+    }
+    .carousel{
+        height: 100%;
+    }
+    .g-row-2{
+        margin-left: 5%;
+        margin-top: 30%;
+        margin-bottom: 10%;
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    .g-row-3{
+        display: grid;
+        column-gap: 20px;
+        grid-template-columns: auto auto;
+    }
+    .card{
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    #explore  {
+        margin-left: 25%;
+        color: green;
+    }
+    .g-row-1 img{
+        width: 120%;
         margin-bottom: 3%;
     }
     #log{
