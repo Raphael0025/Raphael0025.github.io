@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+body{
+    background-image: url(img/newest-bg.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+.bg-color{
+    background-color: rgba(255, 192, 203, 0.5);
+    width: 100%;
+    height: 100vh;
+}
+.text{
+    font-family: 'Concert One', cursive;
+    color: rgb(21, 112, 36);
+    text-decoration: none;
+    margin-left: 32%;
+}
+#expl{
+    background-color: rgb(21, 112, 36);
+    color: rgba(237,60,87);
+    transition: all 0.5s;
+}
+#expl:hover{
+    color: rgba(237,60,87);
+    transition: all 0.5s;
+}
+.cstm-drop {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+.cstm-drop a{
+    margin-right: 5%;
+    margin-left: 5%;
+    float: right;
+    color: rgb(0, 177, 68);
+    text-align:start;
+    padding: 14px 16px;
+    transition: all 0.5s;
+    text-decoration: none;
+}
+
+.cstm-drop-ls {
+    margin-right: 5%;
+    float:right;
+    font-weight: bolder;
+    overflow: hidden;
+}
+
+.cstm-drop-ls .cstm-drop-btn {
+    transition: all 0.5s;
+    font-weight: bolder;
+    border: none;
+    color: rgb(1, 156, 35);
+    padding: 14px 16px;
+    background-color: inherit;
+    margin: 0;
+}
+
+.cstm-drop-ls:hover .cstm-drop-btn{
+    color: rgba(237,60,87);
+    text-decoration: underline;
+}
+.cstm-drop a:hover{
+    color: rgba(237,60,87);
+    text-decoration: underline;
+}
+.cstm-drop-itm {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.cstm-drop-itm a {
+    transition: all 0.5s;
+    float: none;
+    color: rgb(0, 163, 8);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align:left;
+}
+
+.cstm-drop-itm a:hover {
+    color: rgba(237,60,87);
+    background-color: #ddd;
+    text-decoration: underline;
+    z-index: -1;
+}
+
+.cstm-drop-ls:hover .cstm-drop-itm {
+    display: block;
+}
+
+.g-container{
+    display: grid;
+    grid-template-rows: auto auto;
+}
+.g-row-2{
+    display: grid;
+    grid-template-columns: 16.75%  16.75%  16.75%  16.75%  17.75%  16.75%;
+}
+.g-row-3{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    row-gap: 30px;
+}
+    #explore  {
+        margin-left: 39%;
+        color: green;
+    }
+
+    #cards_landscape_wrap-2{
+        text-align: center;
+    }
+    #cards_landscape_wrap-2 .container{
+        padding-bottom: 100px;
+    }
+    #cards_landscape_wrap-2 a{
+        text-decoration: none;
+        outline: none;
+    }
+    #cards_landscape_wrap-2 .card-flyer {
+        border-radius: 5px;
+    }
+    #cards_landscape_wrap-2 .card-flyer .image-box{
+        background: #ffffff;
+        overflow: hidden;
+        box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.50);
+        border-radius: 5px;
+    }
+    #cards_landscape_wrap-2 .card-flyer .image-box img{
+        -webkit-transition:all .9s ease; 
+        width: 100%;
+        height: 200px;
+    }
+    #cards_landscape_wrap-2 .card-flyer:hover .image-box img{
+        opacity: 0.7;
+        transform:scale(1.15);
+    }
+    #cards_landscape_wrap-2 .card-flyer .text-box{
+        text-align: start;
+    }
+    #cards_landscape_wrap-2 .card-flyer .text-box .text-container{
+        padding: 30px 18px;
+    }
+    #cards_landscape_wrap-2 .card-flyer .text-box .special_container{
+        padding: 17px 18px;
+    }
+    #cards_landscape_wrap-2 .card-flyer{
+        background: #FFFFFF;
+        margin-top: 50px;
+        transition: all 0.2s ease-in;
+        box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.40);
+    }
+    #cards_landscape_wrap-2 .card-flyer:hover{
+        background: #fff;
+        box-shadow: 0px 15px 26px rgba(0, 0, 0, 0.50);
+        transition: all 0.2s ease-in;
+        margin-top: 50px;
+    }
+    #cards_landscape_wrap-2 .card-flyer .text-box p{
+        margin-top: 10px;
+        margin-bottom: 0px;
+        padding-bottom: 0px; 
+        font-size: 14px;
+        letter-spacing: 1px;
+        color: #000000;
+    }
+    #cards_landscape_wrap-2 .card-flyer .text-box h6{
+        margin-top: 0px;
+        margin-bottom: 4px; 
+        font-size: 130%;
+        font-weight: bold;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: 'Concert One', cursive;
+        color: green
+    }    
+        #cards_landscape_wrap-2 .card-flyer:hover .text-box h6{
+            margin-top: 0px;
+            margin-bottom: 4px; 
+            font-size: 130%;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-family: 'Concert One', cursive;
+            color: rgba(237,60,87);
+        } 
+    .g-row-1 img{
+        width: 40%;
+        margin-left: 4%;
+    }
+
+@media all and (max-width: 550px){
+    .g-row-2{
+        margin-bottom: 10%;
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+    .g-row-3{
+        display: grid;
+        column-gap: 20px;
+        grid-template-columns: auto auto;
+    }
+    .card{
+        margin-left: 10%;
+        margin-bottom: 5%;
+    }
+    #explore  {
+        margin-left: 25%;
+        color: green;
+    }
+    .g-row-1{
+        margin-bottom: 3%;
+    }
+    #log{
+        margin-bottom: 0%;
+        height:150%;
+        width: 40%;
+    }
+    #expl{
+        margin-left: 2%;
+    }
+    a.navbar-brand{
+        width: 81%;
+    }
+}
